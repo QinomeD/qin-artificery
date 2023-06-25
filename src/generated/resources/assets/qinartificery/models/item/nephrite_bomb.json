@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/handheld",
+  "overrides": [
+    {
+      "model": "qinartificery:item/nephrite_bomb_off",
+      "predicate": {
+        "qinartificery:charging": 0.0
+      }
+    },
+    {
+      "model": "qinartificery:item/nephrite_bomb_0",
+      "predicate": {
+        "qinartificery:charging": 1.0
+      }
+    },
+    {
+      "model": "qinartificery:item/nephrite_bomb_1",
+      "predicate": {
+        "qinartificery:charge": 0.65,
+        "qinartificery:charging": 1.0
+      }
+    },
+    {
+      "model": "qinartificery:item/nephrite_bomb_2",
+      "predicate": {
+        "qinartificery:charge": 0.9,
+        "qinartificery:charging": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "qinartificery:item/nephrite_bomb_2"
+  }
+}

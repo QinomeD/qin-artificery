@@ -1,0 +1,144 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.famished_blade.awakened": {
+			"loop": true,
+			"animation_length": 0.16667,
+			"bones": {
+				"spikes": {
+					"position": {
+						"vector": [1, 0, 0],
+						"easing": "easeOutExpo"
+					}
+				},
+				"sleepy_eye": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"blade": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"awakened_tissue": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					}
+				},
+				"awakened_eye": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.famished_blade.broken": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"sleepy_eye": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"blade": {
+					"scale": {
+						"vector": [0, 0, 0],
+						"easing": "easeOutExpo"
+					}
+				},
+				"awakened_eye": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.famished_blade.dormant": {
+			"loop": true,
+			"bones": {
+				"blade": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"sleepy_eye": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"awakened_eye": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.famished_blade.tosleep": {
+			"animation_length": 0.125,
+			"bones": {
+				"sleepy_eye": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"spikes": {
+					"position": {
+						"0.0": {
+							"vector": [1, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"awakened_eye": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.famished_blade.wakeup": {
+			"animation_length": 1,
+			"bones": {
+				"sleepy_eye": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"spikes": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 0, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [4]
+						}
+					}
+				},
+				"awakened_tissue": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [0, 0, 90],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"awakened_eye": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

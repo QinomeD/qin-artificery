@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "qinomed.qinartificery.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "qinartificery.refmap.json",
+  "mixins": [
+    "SaltBlockMixin"
+  ]
+}

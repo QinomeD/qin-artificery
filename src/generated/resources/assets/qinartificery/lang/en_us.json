@@ -1,0 +1,17 @@
+{
+  "item.qinartificery.attunement": "Attunement",
+  "item.qinartificery.chained_claymore": "Chained Claymore",
+  "item.qinartificery.engraved_rune": "Engraved Rune",
+  "item.qinartificery.famished_blade": "Famished Blade",
+  "item.qinartificery.halite_baton": "Halite Baton",
+  "item.qinartificery.hungering_shield": "Hungering Shield",
+  "item.qinartificery.lead_cross": "Lead Cross",
+  "item.qinartificery.muscle_composite": "Muscle Composite",
+  "item.qinartificery.nephrite_bomb": "Nephrite Bomb",
+  "item.qinartificery.nephrite_pendant": "Nephrite Pendant",
+  "item.qinartificery.rotting_composite": "Rotting Composite",
+  "item.qinartificery.test_weapon": "Test Weapon",
+  "item.qinartificery.wooden_cross": "Wooden Cross",
+  "itemGroup.artificeryTab": "Qin's Artificery",
+  "sounds.qinartificery.zap_explosion": "Discharge"
+}

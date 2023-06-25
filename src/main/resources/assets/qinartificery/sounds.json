@@ -1,0 +1,8 @@
+{
+  "zap_explosion": {
+    "subtitle": "sounds.qinartificery.zap_explosion",
+    "sounds": [
+      "qinartificery:zap_explosion"
+    ]
+  }
+}
