@@ -35,7 +35,7 @@ public class RuntimeEvents {
     public static void entityHurt(LivingHurtEvent event) {
         LivingEntity target = event.getEntity();
 
-        if (event.getSource().getDirectEntity() instanceof Player player) {
+        if (event.getSource().getEntity() instanceof Player player) {
             ItemStack weapon = player.getItemInHand(player.getUsedItemHand());
 
             // Halite Baton

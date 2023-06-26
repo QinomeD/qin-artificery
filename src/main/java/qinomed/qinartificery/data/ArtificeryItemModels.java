@@ -30,6 +30,7 @@ public class ArtificeryItemModels extends ItemModelProvider {
         generatedItem(MUSCLE_COMPOSITE);
         handheldItem(CHAINED_CLAYMORE);
         handheldItem(TEST_WEAPON);
+        generatedItem(ENGRAVED_RUNE);
     }
 
     private static final ResourceLocation GENERATED = new ResourceLocation("item/generated");
